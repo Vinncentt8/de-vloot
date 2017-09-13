@@ -1,0 +1,105 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	background-image: url(grfx/bg.png);
+	background-repeat: repeat-x;
+}
+
+a{
+	color: white;
+	font-size: 12px;
+}
+
+
+#boven{
+	margin: 0 auto;
+	float: left;
+}
+
+
+#middeltekst{
+	background-color: white;
+	color: black;
+	font-style: arial;
+	margin: 0 auto;
+	width: 800px;
+	height: 477px;
+	z-index: 10;
+	text-align: left;
+}
+
+#vloot2{
+	float: right;
+}
+
+#vloot3{
+	float: left;
+}
+
+#container {
+	background-color: #A9D5D4;
+	width: 100%;
+	height: 324PX;
+	position: relative;
+}
+
+#myTopnav{
+	height: 600px;
+	width: 477px;
+	position: absolute;
+	z-index: 500;
+	top: 220px;
+	left: 100px;
+}
+
+header{
+	width: 800px;
+	height: 272px;
+	margin: 0 auto;
+	position: relative;
+	background-image: url(Images/header.jpg);
+}
+
+#Devloot{
+	left: 30px;
+}
+
+
+#vloot{
+	top: 0px;
+	left: 0px;
+
+}
+
+li{
+float: left;
+padding-left: 10px;
+display: inline;
+}
+
+ul{
+	text-decoration: none;
+}
+
+p header {
+	font-size: 20px;
+}
+
+.onpage{
+	color: #a4cde1;
+}
+
+.vloot13{
+	float: left;
+	margin: 10px 10px 10px 10px;
+}
+
+.vloot14{
+	float: right;
+	margin: 10px 10px 10px 10px;
+}
+
+#vloot23{}
