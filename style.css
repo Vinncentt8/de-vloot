@@ -1,9 +1,10 @@
 *{
-	margin:0;
-	padding: 0;
+	margin:0 auto;
+	font-family: sans-serif;
 }
 
 body{
+	font-family: sans-serif;
 	background-image: url(grfx/bg.png);
 	background-repeat: repeat-x;
 }
@@ -11,6 +12,7 @@ body{
 a{
 	color: white;
 	font-size: 12px;
+	text-decoration: none;
 }
 
 
@@ -25,10 +27,10 @@ a{
 	color: black;
 	font-style: arial;
 	margin: 0 auto;
-	width: 800px;
-	height: 477px;
+	width: 760px;
 	z-index: 10;
 	text-align: left;
+	padding: 20px;
 }
 
 #vloot2{
@@ -47,12 +49,14 @@ a{
 }
 
 #myTopnav{
-	height: 600px;
-	width: 477px;
+	
+	padding: 0px;
+	display: inline-block;
+	list-style: none;
 	position: absolute;
-	z-index: 500;
-	top: 220px;
-	left: 100px;
+	bottom: 40px;
+	float: left;
+
 }
 
 header{
@@ -82,6 +86,7 @@ display: inline;
 
 ul{
 	text-decoration: none;
+	padding: 0px;
 }
 
 p header {
@@ -94,6 +99,8 @@ p header {
 
 .vloot13{
 	float: left;
+	padding-right: 20px;
+	padding-bottom: 20px;
 	margin: 10px 10px 10px 10px;
 }
 
